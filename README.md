@@ -9,7 +9,7 @@ Can be confirmed and toggled off/on within Preferences, in  "extensions", where 
 Download it from Releases  ---------------------------------------------------------------------->
 
 
-##Webm Quicklook plugin: play Webm movies in preview. Native, sandboxed, hardened MacOS app.
+## Webm Quicklook plugin: play Webm movies in preview. Native, sandboxed, hardened MacOS app.
 
 
 This is an initial version and all suggestions, comments, critics are welcome.
