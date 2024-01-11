@@ -6,7 +6,7 @@
 Can be confirmed and toggled off/on within Preferences, in  "extensions", where it appears in "added" and in "quicklook".
 
 **How to uninstall?** Delete the app, 
-Download it from Releases  ---------------------------------------------------------------------->
+Download it from Releases  [------------------------------------------------------------------>](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/v1.0-universal_binary)
 
 
 ## Webm Quicklook plugin: play Webm movies in preview. Native, sandboxed, hardened MacOS app.
