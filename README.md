@@ -1,4 +1,4 @@
 # Webm-QuickLook-Plug-In
 Webm Quicklook plugin: play Webm movies in preview. Native, sandboxed, hardened MacOS app.
 
-Download it from Releases here ------------------------------------------------------------------------------------------------------->
+Download it from Releases here ---------------------------------------------------------------------->
