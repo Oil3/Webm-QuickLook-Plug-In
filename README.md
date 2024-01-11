@@ -1,7 +1,7 @@
 # Webm-QuickLook-Plug-In
 
 What is this: this is is an extension for MacOS' "QuickLook" which allows .webm movies to be played within the previews like other formats.  
-How to install? Launch the app. The pluggin gets registered. Keep the app: the pluggin stays inside.  
+How to install? Launch the app. The plugin gets registered. Keep the app: the pluggin stays inside.  
 How to uninstall? Delete the app  
 Download it from Releases here ---------------------------------------------------------------------->
 
