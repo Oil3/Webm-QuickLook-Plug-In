@@ -5,7 +5,7 @@ An extension for MacOS' "QuickLook" which allows .webm movies to be played in th
 
 
 To install, launch "Webm Quicklook.app" once.
-Keep "Webm Quicklook.app" : the way QuickLook extensions function today is by being inside an app, it is because this way any plugin must pass Apple's app security checks.
+Keep the app somewhere: the way QuickLook extensions function today is by being inside an app, it is because this ensures any mac plugin passes Apple's app security checks.
 
 
 To uninstall, delete the app.
@@ -18,7 +18,7 @@ To uninstall, delete the app.
      
 **Download** from Releases.
 
-Latest working uniersal binary: version 1.feb19
+Latest working universal binary: version 1.feb19
 
 
 
