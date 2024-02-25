@@ -10,16 +10,57 @@
 		720ECCDE2B82A21D00FB29BF /* Webm_QuicklookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720ECCDD2B82A21D00FB29BF /* Webm_QuicklookApp.swift */; };
 		720ECCE02B82A21D00FB29BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720ECCDF2B82A21D00FB29BF /* ContentView.swift */; };
 		720ECCE22B82A21F00FB29BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720ECCE12B82A21F00FB29BF /* Assets.xcassets */; };
-		720ECCE52B82A21F00FB29BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720ECCE42B82A21F00FB29BF /* Preview Assets.xcassets */; };
+		720ECCF32B82A74200FB29BF /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720ECCF22B82A74200FB29BF /* Quartz.framework */; };
+		720ECCF62B82A74300FB29BF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720ECCF52B82A74300FB29BF /* PreviewViewController.swift */; };
+		720ECCFB2B82A74300FB29BF /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720ECCF92B82A74300FB29BF /* PreviewViewController.xib */; };
+		720ECD002B82A74300FB29BF /* WebM Quicklook.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		72B4C90E2B82BDBB00CC6DC3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */; };
+		72B4C9142B82E17200CC6DC3 /* sample.webm in Resources */ = {isa = PBXBuildFile; fileRef = 72B4C9132B82E17200CC6DC3 /* sample.webm */; };
+		72B4C9172B82EAEA00CC6DC3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */; };
+		72BAA8F22B86AC1A00C67112 /* QuickLookPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B4C90F2B82E12E00CC6DC3 /* QuickLookPreview.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		720ECCFE2B82A74300FB29BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 720ECCD22B82A21D00FB29BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 720ECCEF2B82A74200FB29BF;
+			remoteInfo = "WebM Quicklook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		720ECD042B82A74300FB29BF /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				720ECD002B82A74300FB29BF /* WebM Quicklook.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7204BF932B8B21410035F558 /* Webm-Quicklook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Webm-Quicklook-Info.plist"; sourceTree = SOURCE_ROOT; };
 		720ECCDA2B82A21D00FB29BF /* Webm Quicklook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webm Quicklook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720ECCDD2B82A21D00FB29BF /* Webm_QuicklookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webm_QuicklookApp.swift; sourceTree = "<group>"; };
 		720ECCDF2B82A21D00FB29BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		720ECCE12B82A21F00FB29BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		720ECCE42B82A21F00FB29BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		720ECCE62B82A21F00FB29BF /* Webm_Quicklook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Webm_Quicklook.entitlements; sourceTree = "<group>"; };
+		720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WebM Quicklook.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		720ECCF22B82A74200FB29BF /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		720ECCF52B82A74300FB29BF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		720ECCFA2B82A74300FB29BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreviewViewController.xib; sourceTree = "<group>"; };
+		720ECCFC2B82A74300FB29BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720ECCFD2B82A74300FB29BF /* WebM_Quicklook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebM_Quicklook.entitlements; sourceTree = "<group>"; };
+		72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		72B4C90F2B82E12E00CC6DC3 /* QuickLookPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickLookPreview.swift; sourceTree = "<group>"; };
+		72B4C9132B82E17200CC6DC3 /* sample.webm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.webm; sourceTree = SOURCE_ROOT; };
+		72B4C9152B82EACB00CC6DC3 /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/PrivateFrameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +68,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72B4C9172B82EAEA00CC6DC3 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720ECCED2B82A74200FB29BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72B4C90E2B82BDBB00CC6DC3 /* WebKit.framework in Frameworks */,
+				720ECCF32B82A74200FB29BF /* Quartz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				720ECCDC2B82A21D00FB29BF /* Webm Quicklook */,
+				720ECCF42B82A74200FB29BF /* WebM Quicklook */,
+				720ECCF12B82A74200FB29BF /* Frameworks */,
 				720ECCDB2B82A21D00FB29BF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				720ECCDA2B82A21D00FB29BF /* Webm Quicklook.app */,
+				720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,21 +106,36 @@
 		720ECCDC2B82A21D00FB29BF /* Webm Quicklook */ = {
 			isa = PBXGroup;
 			children = (
+				7204BF932B8B21410035F558 /* Webm-Quicklook-Info.plist */,
+				72B4C9132B82E17200CC6DC3 /* sample.webm */,
 				720ECCDD2B82A21D00FB29BF /* Webm_QuicklookApp.swift */,
 				720ECCDF2B82A21D00FB29BF /* ContentView.swift */,
 				720ECCE12B82A21F00FB29BF /* Assets.xcassets */,
+				72B4C90F2B82E12E00CC6DC3 /* QuickLookPreview.swift */,
 				720ECCE62B82A21F00FB29BF /* Webm_Quicklook.entitlements */,
-				720ECCE32B82A21F00FB29BF /* Preview Content */,
 			);
 			path = "Webm Quicklook";
 			sourceTree = "<group>";
 		};
-		720ECCE32B82A21F00FB29BF /* Preview Content */ = {
+		720ECCF12B82A74200FB29BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				720ECCE42B82A21F00FB29BF /* Preview Assets.xcassets */,
+				72B4C9152B82EACB00CC6DC3 /* QuickLookThumbnailing.framework */,
+				72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */,
+				720ECCF22B82A74200FB29BF /* Quartz.framework */,
 			);
-			path = "Preview Content";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		720ECCF42B82A74200FB29BF /* WebM Quicklook */ = {
+			isa = PBXGroup;
+			children = (
+				720ECCF52B82A74300FB29BF /* PreviewViewController.swift */,
+				720ECCF92B82A74300FB29BF /* PreviewViewController.xib */,
+				720ECCFC2B82A74300FB29BF /* Info.plist */,
+				720ECCFD2B82A74300FB29BF /* WebM_Quicklook.entitlements */,
+			);
+			path = "WebM Quicklook";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,15 +148,34 @@
 				720ECCD62B82A21D00FB29BF /* Sources */,
 				720ECCD72B82A21D00FB29BF /* Frameworks */,
 				720ECCD82B82A21D00FB29BF /* Resources */,
+				720ECD042B82A74300FB29BF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				720ECCFF2B82A74300FB29BF /* PBXTargetDependency */,
 			);
 			name = "Webm Quicklook";
 			productName = "Webm Quicklook";
 			productReference = 720ECCDA2B82A21D00FB29BF /* Webm Quicklook.app */;
 			productType = "com.apple.product-type.application";
+		};
+		720ECCEF2B82A74200FB29BF /* WebM Quicklook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 720ECD012B82A74300FB29BF /* Build configuration list for PBXNativeTarget "WebM Quicklook" */;
+			buildPhases = (
+				720ECCEC2B82A74200FB29BF /* Sources */,
+				720ECCED2B82A74200FB29BF /* Frameworks */,
+				720ECCEE2B82A74200FB29BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WebM Quicklook";
+			productName = "WebM Quicklook";
+			productReference = 720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +188,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					720ECCD92B82A21D00FB29BF = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					720ECCEF2B82A74200FB29BF = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -118,6 +209,7 @@
 			projectRoot = "";
 			targets = (
 				720ECCD92B82A21D00FB29BF /* Webm Quicklook */,
+				720ECCEF2B82A74200FB29BF /* WebM Quicklook */,
 			);
 		};
 /* End PBXProject section */
@@ -127,8 +219,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720ECCE52B82A21F00FB29BF /* Preview Assets.xcassets in Resources */,
+				72B4C9142B82E17200CC6DC3 /* sample.webm in Resources */,
 				720ECCE22B82A21F00FB29BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		720ECCEE2B82A74200FB29BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720ECCFB2B82A74300FB29BF /* PreviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,11 +240,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				720ECCE02B82A21D00FB29BF /* ContentView.swift in Sources */,
+				72BAA8F22B86AC1A00C67112 /* QuickLookPreview.swift in Sources */,
 				720ECCDE2B82A21D00FB29BF /* Webm_QuicklookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		720ECCEC2B82A74200FB29BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720ECCF62B82A74300FB29BF /* PreviewViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		720ECCFF2B82A74300FB29BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 720ECCEF2B82A74200FB29BF /* WebM Quicklook */;
+			targetProxy = 720ECCFE2B82A74300FB29BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		720ECCF92B82A74300FB29BF /* PreviewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				720ECCFA2B82A74300FB29BF /* Base */,
+			);
+			name = PreviewViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		720ECCE72B82A21F00FB29BF /* Debug */ = {
@@ -200,7 +328,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -257,7 +385,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -268,52 +396,132 @@
 		720ECCEA2B82A21F00FB29BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Webm Quicklook/Webm_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Webm Quicklook/Preview Content\"";
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Webm-Quicklook-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
 			};
 			name = Debug;
 		};
 		720ECCEB2B82A21F00FB29BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Webm Quicklook/Webm_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Webm Quicklook/Preview Content\"";
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Webm-Quicklook-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		720ECD022B82A74300FB29BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WebM Quicklook/WebM_Quicklook.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebM Quicklook/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebM Quicklook";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook.WebM-Quicklook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		720ECD032B82A74300FB29BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "WebM Quicklook/WebM_Quicklook.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 46WUYUUA8V;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WebM Quicklook/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "WebM Quicklook";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook.WebM-Quicklook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -336,6 +544,15 @@
 			buildConfigurations = (
 				720ECCEA2B82A21F00FB29BF /* Debug */,
 				720ECCEB2B82A21F00FB29BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		720ECD012B82A74300FB29BF /* Build configuration list for PBXNativeTarget "WebM Quicklook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720ECD022B82A74300FB29BF /* Debug */,
+				720ECD032B82A74300FB29BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
