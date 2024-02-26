@@ -12,7 +12,6 @@
 		720ECCE22B82A21F00FB29BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720ECCE12B82A21F00FB29BF /* Assets.xcassets */; };
 		720ECCF32B82A74200FB29BF /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 720ECCF22B82A74200FB29BF /* Quartz.framework */; };
 		720ECCF62B82A74300FB29BF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720ECCF52B82A74300FB29BF /* PreviewViewController.swift */; };
-		720ECCFB2B82A74300FB29BF /* PreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 720ECCF92B82A74300FB29BF /* PreviewViewController.xib */; };
 		720ECD002B82A74300FB29BF /* WebM Quicklook.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		72B4C90E2B82BDBB00CC6DC3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */; };
 		72B4C9142B82E17200CC6DC3 /* sample.webm in Resources */ = {isa = PBXBuildFile; fileRef = 72B4C9132B82E17200CC6DC3 /* sample.webm */; };
@@ -54,7 +53,6 @@
 		720ECCF02B82A74200FB29BF /* WebM Quicklook.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WebM Quicklook.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720ECCF22B82A74200FB29BF /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		720ECCF52B82A74300FB29BF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
-		720ECCFA2B82A74300FB29BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PreviewViewController.xib; sourceTree = "<group>"; };
 		720ECCFC2B82A74300FB29BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720ECCFD2B82A74300FB29BF /* WebM_Quicklook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebM_Quicklook.entitlements; sourceTree = "<group>"; };
 		72B4C90D2B82BDBB00CC6DC3 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -131,7 +129,6 @@
 			isa = PBXGroup;
 			children = (
 				720ECCF52B82A74300FB29BF /* PreviewViewController.swift */,
-				720ECCF92B82A74300FB29BF /* PreviewViewController.xib */,
 				720ECCFC2B82A74300FB29BF /* Info.plist */,
 				720ECCFD2B82A74300FB29BF /* WebM_Quicklook.entitlements */,
 			);
@@ -228,7 +225,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720ECCFB2B82A74300FB29BF /* PreviewViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,17 +258,6 @@
 			targetProxy = 720ECCFE2B82A74300FB29BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		720ECCF92B82A74300FB29BF /* PreviewViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				720ECCFA2B82A74300FB29BF /* Base */,
-			);
-			name = PreviewViewController.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		720ECCE72B82A21F00FB29BF /* Debug */ = {
@@ -309,6 +294,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -329,12 +315,14 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 2024.feb25;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "";
 			};
 			name = Debug;
 		};
@@ -372,6 +360,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -386,10 +375,12 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
+				MARKETING_VERSION = 2024.feb25;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "";
 			};
 			name = Release;
 		};
@@ -402,7 +393,6 @@
 				CODE_SIGN_ENTITLEMENTS = "Webm Quicklook/Webm_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -410,13 +400,12 @@
 				INFOPLIST_FILE = "Webm-Quicklook-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2024.feb25;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -439,7 +428,6 @@
 				CODE_SIGN_ENTITLEMENTS = "Webm Quicklook/Webm_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -447,13 +435,12 @@
 				INFOPLIST_FILE = "Webm-Quicklook-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 2024.feb25;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = macosx;
@@ -472,7 +459,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "WebM Quicklook/WebM_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -486,7 +472,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2024.feb25;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook.WebM-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -502,7 +488,6 @@
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "WebM Quicklook/WebM_Quicklook.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 46WUYUUA8V;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -516,7 +501,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.4;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 2024.feb25;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oil3.Webm-Quicklook.WebM-Quicklook";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
