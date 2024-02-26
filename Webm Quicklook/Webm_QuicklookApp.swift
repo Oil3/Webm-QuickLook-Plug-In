@@ -13,8 +13,5 @@ struct Webm_QuicklookApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-
-        }
- }
-}
+}}}
 

@@ -14,18 +14,15 @@ struct ContentView: View {
         VStack {
             Image(systemName: "puzzlepiece.extension")
             Image(systemName: "powerplug")
-            Text("Sample WebM file should play using Quicklook")
+            
+            Text("Gesture zoom (trackpad) enabled, ")
             QuickLookPreview(url: sampleFileURL)
+            .frame(width: 800, height: 300)
             .onDisappear {
-            NSApplication.shared.terminate(nil)
-            }
-        }
-//        .frame(width: 800, height: 300) // Set the desired frame size
-    }
-}
+                NSApplication.shared.terminate(nil) 
+}}}}
+//        
 
-
-// Preview for ContentView
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
