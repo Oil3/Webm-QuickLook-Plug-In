@@ -11,14 +11,9 @@ import WebKit
 
 class PreviewViewController: NSViewController, QLPreviewingController {
    
-//    override var nibName: NSNib.Name? {
-//        return NSNib.Name("PreviewViewController")
-//    }
     var webView = WKWebView(frame: .zero)
 
-    
     func preparePreviewOfFile(at url: URL, completionHandler: @escaping (Error?) -> Void) {
-        // Load the file URL in webView
         webView.loadFileURL(url, allowingReadAccessTo: url)
         completionHandler(nil)
     }
@@ -27,15 +22,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
         self.view = NSView()
         self.view.addSubview(webView)
         
-//    required init?(coder: NSCoder) { fatalError() }
-//    override init(nibName nibNameOrNil: NSNib.Name?, bundle nibBundleOrNil: Bundle?) {
-//        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-//    }
-    
-
         webView.translatesAutoresizingMaskIntoConstraints = false
-//        
-//        // Add constraints to fill the entire view
         NSLayoutConstraint.activate([
             webView.topAnchor.constraint(equalTo: view.topAnchor),
             webView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -44,11 +31,11 @@ class PreviewViewController: NSViewController, QLPreviewingController {
         ])
     }
         
-//    func webView(_ webView: WKWebView, didStart navigation: WKNavigation!) {
-//        webView.pauseAllMediaPlayback {
-//        }
-//    }
-    
+    func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        let cssString = "::-webkit-media-controls-panel { display: none; }"
+        let jsString = "var style = document.createElement('style'); style.innerHTML = '\(cssString)'; document.head.appendChild(style);"
+        webView.evaluateJavaScript(jsString, completionHandler: nil)
+    }
     func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
         print("Navigation failure: \(error.localizedDescription)")
     }
