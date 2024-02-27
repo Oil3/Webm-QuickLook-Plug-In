@@ -51,10 +51,6 @@
 	</dict>
 	<key>QLNeedsToBeRunInMainThread</key>
 	<false/>
-	<key>QLPreviewHeight</key>
-	<real>800</real>
-	<key>QLPreviewWidth</key>
-	<integer>360</integer>
 	<key>UTExportedTypeDeclarations</key>
 	<array>
 		<dict>

@@ -15,7 +15,7 @@ struct ContentView: View {
             Image(systemName: "puzzlepiece.extension")
             Image(systemName: "powerplug")
             
-            Text("Gesture zoom (trackpad) enabled, ")
+            Text("Gesture zoom (trackpad) enabled,           ")
             QuickLookPreview(url: sampleFileURL)
             .frame(width: 800, height: 300)
             .onDisappear {
