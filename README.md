@@ -18,7 +18,7 @@ To uninstall, delete the app.
      
 **Download** from Releases.
 
-Latest working universal binary: version 1.feb25
+Latest working universal binary: version 1.feb27
 
 
 
