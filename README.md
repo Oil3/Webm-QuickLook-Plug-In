@@ -21,6 +21,8 @@ To uninstall, delete the app.
 **Download** from Releases.
 
 Latest working universal binary: version 2024october -fixed forced autoplay
+
+  
 Notarized and gatekeeper-approved.
 
 
