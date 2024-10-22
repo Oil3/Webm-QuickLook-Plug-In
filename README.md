@@ -13,6 +13,7 @@ If you move it, launch it again.
 To uninstall, delete the app.
 
 
+![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
 
 
