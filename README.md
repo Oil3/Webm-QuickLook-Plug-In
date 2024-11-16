@@ -2,7 +2,10 @@
   
 
 An extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Spotlight previews like any other movies.
-
+  
+Choice of "autoplay" and "no-autoplay(fixed)", distinct versions to avoid hacky-workarounds.
+ 
+It's always possible to click to play/pause,  and when previewed the right-click context menu has play/pause option as  well. 
 
 To install, launch "Webm Quicklook.app" once, seeing the sample video indicates success. 
 You can close the app.
