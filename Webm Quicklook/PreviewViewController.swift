@@ -38,7 +38,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     self.view = NSView()
     self.view.addSubview(webView)
     
-    webView.pageZoom = 0.6
+    webView.pageZoom = 0.8
     webView.allowsMagnification  = true
     webView.autoresizingMask = [.width, .height]
     webView.translatesAutoresizingMaskIntoConstraints = true
