@@ -12,7 +12,7 @@ It's always possible to click to play/pause,  and when previewed the right-click
 
 To install, launch "Webm Quicklook.app" once, seeing the sample video indicates success. 
 You can close the app.
-Keep the app somewhere: the way QuickLook extensions function today is by fetching the plug-in each time from the app, this is Apple's rule, and it is so to ensure that mac plugin also go through Apple's app security review.
+Keep the app somewhere: the way QuickLook extensions function today is by fetching the plug-in each time from the app, this is Apple's rule, and it is so to ensure that mac plugin also goes through Apple's app security review.
 If you move it, launch it again.
 
 
