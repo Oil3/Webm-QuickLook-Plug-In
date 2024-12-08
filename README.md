@@ -1,9 +1,12 @@
 # Webm QuickLook Plug-In extension  
   
 
-An extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Spotlight previews like any other movies.
+An extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Spotlight previews like any other, native, movies.
+
+Thumbnails are dynamic and playable.
+
   
-Choice of "autoplay" and "no-autoplay(fixed)", distinct versions to avoid hacky-workarounds.
+Choice of "autoplay(on)" and "no-autoplay(off)", distinct versions to avoid hacky-workarounds.
  
 It's always possible to click to play/pause,  and when previewed the right-click context menu has play/pause options as  well. 
 
@@ -24,10 +27,16 @@ To uninstall, delete the app.
      
 **Download** from Releases.
 
-Latest working universal binary: version 2024october -fixed forced autoplay
 
+[Latest working universal binary: version 2024november - autoplay ON](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-autoplayON-2024october)
+
+[Latest working universal binary: version 2024october - autoplay OFF](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-2024october)
   
 Notarized and gatekeeper-approved.
+
+**To do**
+
+Make a checkbox for autoplay
 
 
 
