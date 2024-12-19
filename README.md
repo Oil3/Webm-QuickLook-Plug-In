@@ -34,6 +34,10 @@ To uninstall, delete the app.
   
 Notarized and gatekeeper-approved.
 
+
+The "autoplay on" version is 100% Swift, the "autoplay off" version has 10 lines of js - invoked natively in Swift to trigger 'pause'. 
+Neither use html or anything external: a mac needs to stay comfortable.
+  
 **To do**
 
 Make a checkbox for autoplay
