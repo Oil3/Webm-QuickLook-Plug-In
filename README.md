@@ -14,6 +14,7 @@ To install, launch "Webm Quicklook.app" once, seeing the sample video indicates 
 You can close the app.
 Keep the app somewhere: the way QuickLook extensions function today is by fetching the plug-in each time from the app, this is Apple's rule, and it is so to ensure that mac plugin also goes through Apple's app security review.
 If you move it, launch it again.
+To update to a new version, make sure to delete the previous one, or just rteplace it.
 
 
 To uninstall, delete the app.
@@ -28,10 +29,10 @@ To uninstall, delete the app.
 **Download** from Releases.
 
 
-[Latest working universal binary: version 2024november - autoplay ON](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-autoplayON-2024october)
+[Latest working universal binary: version 2025january - autoplay ON, background/play issue fixed
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-2025jan-backgroundplayfixed-autoplay
+)  
 
-[Latest working universal binary: version 2024october - autoplay OFF](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-2024october)
-  
 Notarized and gatekeeper-approved.
 
 
