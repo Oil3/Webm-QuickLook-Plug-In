@@ -15,7 +15,7 @@ struct ContentView: View {
             Image(systemName: "puzzlepiece.extension")
             Image(systemName: "powerplug")
             
-            Text("oct2024 update: forced autoplay fixed")
+            Text("jan2025 update: background play fixed")
             QuickLookPreview(url: sampleFileURL)
             .frame(width: 800, height: 300)
             .onDisappear {

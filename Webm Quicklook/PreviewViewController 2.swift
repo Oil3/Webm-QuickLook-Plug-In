@@ -2,29 +2,21 @@ import Cocoa
 import Quartz
 import WebKit
 
-class PreviewViewController: NSViewController, QLPreviewingController {
-  
+class PreviewViewController: NSViewController, QLPreviewingController { 
   var webView = WKWebView(frame: .zero)
-  static var activeWebViews = NSHashTable<WKWebView>.weakObjects() // Keeps track of active web views
+  static let globalPauseNotification = Notification.Name("GlobalPauseVideosNotification")
+  
   
   func preparePreviewOfFile(at url: URL, completionHandler: @escaping (Error?) -> Void) {
-      // Pause all other active web views
-    for webView in PreviewViewController.activeWebViews.allObjects {
-      webView.evaluateJavaScript("""
-            var videos = document.getElementsByTagName('video');
-            for (var i = 0; i < videos.length; i++) {
-                videos[i].pause();
-                videos[i].currentTime = 0; // Reset playback to the beginning
-            }
-            """, completionHandler: nil)
-    }
-    
-      // Add the current web view to the active list
-    PreviewViewController.activeWebViews.add(webView)
+      // Notify all instances to pause their videos
+    NotificationCenter.default.post(name: PreviewViewController.globalPauseNotification, object: self)
+    clearCache()
     
       // Clear any existing content in this web view
     webView.stopLoading()
-    webView.load(URLRequest(url: URL(string: "about:blank")!))
+    let request = URLRequest(url: url, cachePolicy: .reloadIgnoringLocalCacheData)//, timeoutInterval: 60.0)
+    
+    webView.load(request) //URL(string: "about:blank")!))
     
       // Load the new video file
     webView.loadFileURL(url, allowingReadAccessTo: url)
@@ -53,22 +45,31 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     webView.allowsMagnification = true
     webView.autoresizingMask = [.width, .height]
     webView.translatesAutoresizingMaskIntoConstraints = true
+    
+      // Listen for the global pause notification
+    NotificationCenter.default.addObserver(self, selector: #selector(pauseAllVideos(_:)), name: PreviewViewController.globalPauseNotification, object: nil)
   }
   
-  override func viewWillDisappear() {
-    super.viewWillDisappear()
+  @objc func pauseAllVideos(_ notification: Notification) {
+      // Exclude the sender of the notification
+    guard notification.object as? PreviewViewController !== self else { return }
+    //clearCache()
     
-      // Pause all videos in the current web view
+      // Inject JavaScript to pause all videos in the current web view
     webView.evaluateJavaScript("""
         var videos = document.getElementsByTagName('video');
         for (var i = 0; i < videos.length; i++) {
             videos[i].pause();
         }
         """, completionHandler: nil)
+  }
+  
+  override func viewWillDisappear() {
+    super.viewWillDisappear()
+    clearCache()
     
-      // Remove the web view from active list
-    PreviewViewController.activeWebViews.remove(webView)
-    
+      // Pause all videos in the current web view
+    pauseAllVideos(Notification(name: PreviewViewController.globalPauseNotification))
     webView.stopLoading()
     webView.removeFromSuperview()
   }
@@ -76,4 +77,16 @@ class PreviewViewController: NSViewController, QLPreviewingController {
   func webView(_ webView: WKWebView, didFailProvisionalNavigation navigation: WKNavigation!, withError error: Error) {
     print("Navigation failure: \(error.localizedDescription)")
   }
+   func clearCache() {
+    let dataStore = WKWebsiteDataStore.default()
+    dataStore.fetchDataRecords(ofTypes: WKWebsiteDataStore.allWebsiteDataTypes()) { records in
+      dataStore.removeData(ofTypes: WKWebsiteDataStore.allWebsiteDataTypes(), for: records) {
+        print("Cache cleared")
+      }
+    }
+    //deinit {
+    //b  NotificationCenter.default.removeObserver(self)
+     //}
+  }
+  
 }
