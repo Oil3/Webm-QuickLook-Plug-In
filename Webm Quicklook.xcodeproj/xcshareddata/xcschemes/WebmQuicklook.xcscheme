@@ -16,8 +16,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "720ECCEF2B82A74200FB29BF"
-               BuildableName = "WebM Quicklook.appex"
-               BlueprintName = "WebM Quicklook"
+               BuildableName = "WebM QuicklookE.appex"
+               BlueprintName = "WebM QuicklookE"
                ReferencedContainer = "container:Webm Quicklook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

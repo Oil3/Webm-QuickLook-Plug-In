@@ -1,35 +1,46 @@
 import Cocoa
 import Quartz
 import WebKit
+import UniformTypeIdentifiers
 
 class PreviewViewController: NSViewController, QLPreviewingController {
   
   var webView = WKWebView(frame: .zero)
   
   func preparePreviewOfFile(at url: URL, completionHandler: @escaping (Error?) -> Void) {
-    // Stop any previous media playback to avoid conflicts
-    webView.stopLoading()
-    webView.load(URLRequest(url: URL(string: "about:blank")!))
-    
-    // Load the video file
-    webView.loadFileURL(url, allowingReadAccessTo: url)
-    
-    // Only javascript could stop that autoplay
-    let pauseVideoJS = """
-    var video = document.querySelector('video');
-    if (video) {
-        video.pause();
-    } else {
-        document.addEventListener('DOMContentLoaded', function() {
-            var video = document.querySelector('video');
-            if (video) {
-                video.pause();
-            }
-        });
+      // Load the video data
+    do {
+      let videoFileData = try Data(contentsOf: url)
+      
+        // Create the HTML content with the `cid` reference
+      let htmlContent = """
+            <!DOCTYPE html>
+            <html>
+            <head>
+              <meta charset="utf-8">
+              <title>QuickLook</title>
+              <style>
+                  html, body {background-color: black; padding: 0; margin: 0; overflow: hidden; display: flex; justify-content: center; align-items: center; height: 100vh;}
+                  video {width: 100%; height: 100%; object-fit: contain;}
+              </style>
+            </head>
+            <body>
+              <video controls autoplay src="cid:videoFile"></video>
+            </body>
+            </html>
+            """
+      
+        // Create a QLPreviewReply and attach the video file data
+      let reply = QLPreviewReply.init(fileURL: <#T##NSURL#>)
+      reply.attachments["videoFile"] = QLPreviewReplyAttachment(data: videoFileData, contentType: .movie)
+      
+        // Load the HTML content into the WKWebView
+      webView.loadHTMLString(htmlContent, baseURL: nil)
+    } catch {
+      print("Error loading video data: \(error.localizedDescription)")
+      completionHandler(error)
+      return
     }
-    """
-    // At least using it natively
-    webView.configuration.userContentController.addUserScript(WKUserScript(source: pauseVideoJS, injectionTime: .atDocumentEnd, forMainFrameOnly: true))
     
     completionHandler(nil)
   }
@@ -38,8 +49,8 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     self.view = NSView()
     self.view.addSubview(webView)
     
-    webView.pageZoom = 0.8
-    webView.allowsMagnification  = true
+//    webView.pageZoom = 0.4
+    webView.allowsMagnification = true
     webView.autoresizingMask = [.width, .height]
     webView.translatesAutoresizingMaskIntoConstraints = true
   }
@@ -47,7 +58,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
   override func viewWillDisappear() {
     super.viewWillDisappear()
     
-    // Stop loading and clear the web view when the view is about to disappear
+      // Stop loading and clear the web view when the view is about to disappear
     webView.stopLoading()
     webView.load(URLRequest(url: URL(string: "about:blank")!))
   }

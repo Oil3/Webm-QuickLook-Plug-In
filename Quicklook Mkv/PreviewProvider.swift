@@ -1,34 +1,9 @@
-  //
-  //  PreviewProvider.swift
-  //  QuickLook Preview Extension
-  //
-  //  Created by Xiaolin Wang on 26/03/2024.
-  //
 
 import Cocoa
 import Quartz
 
 class PreviewProvider: QLPreviewProvider, QLPreviewingController {
-  
-  
-  /*
-   Use a QLPreviewProvider to provide data-based previews.
-   
-   To set up your extension as a data-based preview extension:
-   
-   - Modify the extension's Info.plist by setting
-   <key>QLIsDataBasedPreview</key>
-   <true/>
-   
-   - Add the supported content types to QLSupportedContentTypes array in the extension's Info.plist.
-   
-   - Change the NSExtensionPrincipalClass to this class.
-   e.g.
-   <key>NSExtensionPrincipalClass</key>
-   <string>$(PRODUCT_MODULE_NAME).PreviewProvider</string>
-   
-   - Implement providePreview(for:)
-   */
+
   
   func providePreview(for request: QLFilePreviewRequest) async throws -> QLPreviewReply {
     
@@ -36,7 +11,7 @@ class PreviewProvider: QLPreviewProvider, QLPreviewingController {
       
       let videoFileData = try! Data(contentsOf: request.fileURL)
       
-      reply.attachments["videoFile"] = QLPreviewReplyAttachment(data: videoFileData, contentType: UTType(importedAs: "org.matroska.mkv"))
+      reply.attachments["videoFile"] = QLPreviewReplyAttachment(data: videoFileData, contentType: .video)//UTType(importedAs: "org.webmproject.webm"))
       
       return Data("""
                                         <!DOCTYPE html>
@@ -50,14 +25,17 @@ class PreviewProvider: QLPreviewProvider, QLPreviewingController {
                                             </style>
                                           </head>
                                           <body>
-                                            <video controls src=\"cid:videoFile\" type="video/x-matroska"</video>
+<video controls  autoplay src=\"cid:videoFile\">
+</video>
                                           </body>
                                         </html>
 """.utf8)
+      
     }
-    
-    reply.title = request.fileURL.lastPathComponent
-    
+           reply.title = request.fileURL.lastPathComponent
+        //    
     return reply
-  }
-} 
+    }
+  } 
+
+

@@ -19,8 +19,8 @@ struct ContentView: View {
             QuickLookPreview(url: sampleFileURL)
             .frame(width: 800, height: 300)
             .onDisappear {
-                NSApplication.shared.terminate(nil) 
-}}}}
+              NSApplication.shared.terminate(nil) 
+            }}}}
 //        
 
 struct ContentView_Previews: PreviewProvider {
