@@ -43,6 +43,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     
     webView.pageZoom = 0.8
     webView.allowsMagnification = true
+//    webView.rotate(with: <#T##NSEvent#>)
     webView.autoresizingMask = [.width, .height]
     webView.translatesAutoresizingMaskIntoConstraints = true
     
@@ -55,7 +56,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     guard notification.object as? PreviewViewController !== self else { return }
     //clearCache()
     
-      // Inject JavaScript to pause all videos in the current web view
+      //  JavaScript to pause all videos in the current web view
     webView.evaluateJavaScript("""
         var videos = document.getElementsByTagName('video');
         for (var i = 0; i < videos.length; i++) {
