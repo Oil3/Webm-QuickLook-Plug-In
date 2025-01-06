@@ -5,7 +5,8 @@ import WebKit
 class PreviewViewController: NSViewController, QLPreviewingController { 
   var webView = WKWebView(frame: .zero)
   static let globalPauseNotification = Notification.Name("GlobalPauseVideosNotification")
-  
+  var timer: Timer?
+
   
   func preparePreviewOfFile(at url: URL, completionHandler: @escaping (Error?) -> Void) {
       // Notify all instances to pause their videos
@@ -64,7 +65,29 @@ class PreviewViewController: NSViewController, QLPreviewingController {
         }
         """, completionHandler: nil)
   }
-  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    
+     timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { [weak self] _ in
+      self?.timerHandler()
+    })
+  }
+  @objc func timerHandler() {
+    if let window = view.window {
+      let isActive = window.level.rawValue > 0
+      if isActive {
+print("if active")
+      } else {
+        print("else")
+        if webView.superview != nil {
+          webView.pauseAllMediaPlayback()
+//          webView.reload()
+        }
+        
+          // Invalidate timer once the view is inactive
+        timer = nil  }
+    }
+  }
   override func viewWillDisappear() {
     super.viewWillDisappear()
     clearCache()
