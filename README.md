@@ -1,4 +1,4 @@
-# Webm QuickLook Plug-In extension  
+# Webm QuickLook Preview extension  
   
 
 An extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Quicklook previews like any other, native, movies.
@@ -6,7 +6,7 @@ An extension for MacOS' "QuickLook" which allows .webm movies to be played in th
 Thumbnails are dynamic and playable.  
 
   
-2025.jan, fixed issue of previous video not stopping playback.
+2025.feb, fixed all issues of a previous video not stopping when browsing back and forth multiple times.
  
 It's always possible to click to play/pause,  and when previewed the right-click context menu has play/pause options as  well. 
 
@@ -15,11 +15,11 @@ It's always possible to click to play/pause,  and when previewed the right-click
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**Download** from Releases.
+**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-feb2025).
 
 
-[Latest working universal binary: version 2025january - autoplay ON, background/play issue fixed
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebmQuicklook-2025jan-backgroundplayfixed-autoplay
+[Direct download latest working universal binary: version 2025february
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webM-feb2025/Webm.Quicklook.feb2025.universal.binary.zip
 ) 
 
 Notarized and gatekeeper-approved.
