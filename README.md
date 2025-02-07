@@ -8,7 +8,6 @@ Thumbnails are dynamic and playable.
   
 2025.feb, fixed all issues of a previous video not stopping when browsing back and forth multiple times.
  
-It's always possible to click to play/pause,  and when previewed the right-click context menu has play/pause options as  well. 
 
 
 
@@ -18,34 +17,36 @@ It's always possible to click to play/pause,  and when previewed the right-click
 **Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-feb2025).
 
 
-[Direct download latest working universal binary: version 2025february
+[Direct download latest stable universal binary: version 2025february
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webM-feb2025/Webm.Quicklook.feb2025.universal.binary.zip
 ) 
 
-Notarized and gatekeeper-approved.
-To install, launch "Webm Quicklook.app" once, seeing the sample video (a blueish sphere) indicates success. 
-You can close the app.   
-Keep the app: the way QuickLook extensions function today is by fetching the plug-in each time from inside the app, this is Apple's rule, and it is so to ensure that mac plugin also goes through Apple's app security review.     
-If you move it, launch it again.      
-It's toggable in system Settings, under 'Quicklook', inside 'Extensions'.  
-To update to a new version, make sure to delete the previous version, or just replace it by the new one.  
 
 
-To uninstall, delete the app.  
+## Install  
+Launching the app once registers the extension, the plug-in itself stays within the app bundle.  
 
+## Uninstall  
+Delete the app.  
+
+## Update  
+Replace the older app by the newer app.     
+MacOS looks for the extension from where app was launched the first time, so app is moved, a relaunch is needed. 
+
+  
+Notarized and gatekeeper-approved.  
+
+
+Once the app is launched, the WebM Quicklook extension appears in the `Extensions` from `General` in macOS' `System Settings`, and disapears when app is deleted.  
+
+![image](https://github.com/user-attachments/assets/86b2e30d-039f-4641-a5d9-0ed12f14bfd2)
    
-Written 100% in Swift, with no HTML and rather 10 lines of JS getElementByTagName but invoked in Swift, sandboxed and never external, it's light and fast: 
+
+
+Made in Swift because
 _a mac is a mac, and it needs to stay comfortable._
 
-      
-**To do**
-
-Make a checkbox for autoplay?  
-Implement 90degrees rotations?  
-Add .mkv?  
-Add video dimensions + duration?  
-A nicer 'sample video'?  
-
+  
 
 Any suggestion, comment, constructive or destructive critics, are welcome.
 
