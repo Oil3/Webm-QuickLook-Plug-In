@@ -24,15 +24,20 @@ Thumbnails are dynamic and playable.
 
 
 ## Install  
-Launching the app once registers the extension, the plug-in itself stays within the app bundle.  
+>Launch the app once. This registers the extension as the plug-in itself stays within the app bundle.  
 
 ## Uninstall  
-Delete the app.  
+>Delete the app.  
 
 ## Update  
-Replace the older app by the newer app.     
-MacOS looks for the extension from where app was launched the first time, so app is moved, a relaunch is needed. 
+>Replace the older app by the newer app.  MacOS looks for the extension from where app was launched the first time: if app is moved, a relaunch is needed. 
 
+
+  
+
+
+      
+##  
   
 Notarized and gatekeeper-approved.  
 
