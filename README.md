@@ -24,13 +24,13 @@ Thumbnails are dynamic and playable.
 
 
 ## Install  
->Launch the app once. This registers the extension as the plug-in itself stays within the app bundle.  
+>Launch the app once. This registers the extension as the extension itself stays within the app bundle.  
 
 ## Uninstall  
 >Delete the app.  
 
 ## Update  
->Replace the older app by the newer app.  MacOS looks for the extension from where app was launched the first time: if app is moved, a relaunch is needed. 
+>Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
   
@@ -42,7 +42,7 @@ Thumbnails are dynamic and playable.
 Notarized and gatekeeper-approved.  
 
 
-Once the app is launched, the WebM Quicklook extension appears in the `Extensions` from `General` in macOS' `System Settings`, and disapears when app is deleted.  
+Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
 
 ![image](https://github.com/user-attachments/assets/86b2e30d-039f-4641-a5d9-0ed12f14bfd2)
    
