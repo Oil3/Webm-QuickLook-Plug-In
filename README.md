@@ -50,10 +50,3 @@ Once the app is launched, the WebM Quicklook extension appears in  `Extensions` 
 
 Made in Swift because
 _a mac is a mac, and it needs to stay comfortable._
-
-  
-
-Any suggestion, comment, constructive or destructive critics, are welcome.
-
-
-
