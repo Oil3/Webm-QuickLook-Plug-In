@@ -1,7 +1,7 @@
 ## Webm QuickLook Preview extension  
   
 
-An extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Quicklook previews like any other, native, movie.
+A free extension for MacOS' "QuickLook" which allows .webm movies to be played in the Finder and Quicklook previews like any other, native, movie.
 
 Thumbnails are dynamic and playable.  
 
