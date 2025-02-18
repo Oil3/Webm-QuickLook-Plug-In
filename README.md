@@ -12,7 +12,7 @@ Thumbnails are dynamic and playable.
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-feb2025).
+**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/2025).
 
 [Direct download latest:
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.2025Feb.zip
