@@ -14,9 +14,12 @@ Thumbnails are dynamic and playable.
      
 **Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-feb2025).
 
+[Direct download latest:
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.2025Feb.zip
 
-[Direct download latest stable universal binary: version 2025february
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webM-feb2025/Webm.Quicklook.feb2025.universal.binary.zip
+) 
+[Direct download latest (Intel):
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.UniversalBinary.2025Feb.zip
 ) 
 
 
