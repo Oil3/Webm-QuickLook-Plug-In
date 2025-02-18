@@ -5,8 +5,6 @@ An extension for MacOS' "QuickLook" which allows .webm movies to be played in th
 
 Thumbnails are dynamic and playable.  
 
-  
-2025 stable.
  
 
 
