@@ -1,7 +1,7 @@
 ## WebM QuickLook Preview extension  
   
 
-A free extension for MacOS' "QuickLook" to play .webm movies in Finder and Quicklook previews just like any other movie.
+The original free extension for MacOS' "QuickLook" to play .webm movies with Quicklook Preview just like any other movie.
 
 
  
@@ -36,7 +36,9 @@ Works on all macOSX versions and all mac architectures.
       
 ##  
   
-Notarized and gatekeeper-approved.  
+Notarized and gatekeeper-approved.   
+Light and fast.  
+
 
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
@@ -44,6 +46,7 @@ Once the app is launched, the WebM Quicklook extension appears in  `Extensions` 
 ![image](https://github.com/user-attachments/assets/86b2e30d-039f-4641-a5d9-0ed12f14bfd2)
    
 
-##
-Made in Swift because
+
+##  
+Made in Swift.  
 _a mac is a mac, and it needs to stay comfortable._
