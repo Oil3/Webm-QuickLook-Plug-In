@@ -45,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		340B3CB82CBF8AA4009C20B5 /* sample.webm */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.webm; sourceTree = "<group>"; };
-		7204BF932B8B21410035F558 /* Webm-Quicklook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Webm-Quicklook-Info.plist"; sourceTree = SOURCE_ROOT; };
 		720ECCDA2B82A21D00FB29BF /* Webm Quicklook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webm Quicklook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		720ECCDD2B82A21D00FB29BF /* Webm_QuicklookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webm_QuicklookApp.swift; sourceTree = "<group>"; };
 		720ECCDF2B82A21D00FB29BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,7 +103,6 @@
 		720ECCDC2B82A21D00FB29BF /* Webm Quicklook */ = {
 			isa = PBXGroup;
 			children = (
-				7204BF932B8B21410035F558 /* Webm-Quicklook-Info.plist */,
 				720ECCDD2B82A21D00FB29BF /* Webm_QuicklookApp.swift */,
 				720ECCDF2B82A21D00FB29BF /* ContentView.swift */,
 				340B3CB82CBF8AA4009C20B5 /* sample.webm */,

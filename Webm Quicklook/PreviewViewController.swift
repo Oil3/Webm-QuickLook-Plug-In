@@ -6,7 +6,7 @@ class PreviewViewController: NSViewController, QLPreviewingController {
   
   var webView = WKWebView(frame: .zero)
   
-  func preparePreviewOfFile(at url: URL, completionHandler: @escaping (Error?) -> Void) {
+  func preparePreviewOfFile(at url: URL) async {
     // Stop any previous media playback to avoid conflicts
     webView.stopLoading()
     webView.load(URLRequest(url: URL(string: "about:blank")!))
@@ -31,7 +31,6 @@ class PreviewViewController: NSViewController, QLPreviewingController {
     // At least using it natively
     webView.configuration.userContentController.addUserScript(WKUserScript(source: pauseVideoJS, injectionTime: .atDocumentEnd, forMainFrameOnly: true))
     
-    completionHandler(nil)
   }
   
   override func loadView() {
