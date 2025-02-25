@@ -11,7 +11,7 @@ A free extension for MacOS' "QuickLook" to play .webm movies in Finder and Quick
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/2025).
+**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/march2025).
 
 
 
@@ -26,13 +26,11 @@ A free extension for MacOS' "QuickLook" to play .webm movies in Finder and Quick
 >Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
+Works on all macOSX versions and all mac architectures.  
 
-[Direct download (Silicon/M-series)
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.2025Feb.zip)   
- 
-[Direct download (Intel)
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.UniversalBinary.2025Feb.zip
-)   
+[Direct download (Universal Binary)
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/march2025/Webm.Quicklook.UniversalBinary.2025March.zip)   
+
 
 
       
@@ -46,6 +44,6 @@ Once the app is launched, the WebM Quicklook extension appears in  `Extensions` 
 ![image](https://github.com/user-attachments/assets/86b2e30d-039f-4641-a5d9-0ed12f14bfd2)
    
 
-
+##
 Made in Swift because
 _a mac is a mac, and it needs to stay comfortable._
