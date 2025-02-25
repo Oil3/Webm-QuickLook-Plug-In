@@ -32,6 +32,7 @@ Works on all macOSX versions and all mac architectures.
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/march2025/Webm.Quicklook.UniversalBinary.2025March.zip)   
 
 
+[Screen Recording 2025-02-25 at 5.22.09 AM.webm](https://github.com/user-attachments/assets/eabbcc4a-738d-43c1-a607-a6c1c4c7e223)
 
       
 ##  
