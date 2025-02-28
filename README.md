@@ -44,10 +44,15 @@ Light and fast.
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
 
-![image](https://github.com/user-attachments/assets/86b2e30d-039f-4641-a5d9-0ed12f14bfd2)
-   
+![image](https://github.com/user-attachments/assets/e4b62e9f-196f-4230-8cd3-02d453e05c31)
 
 
+## 
+
+
+
+  ## 
+#### also check out my new [`MKV quicklook extension`](https://github.com/Oil3/Mkv-Quicklook) -just released!
 ##  
 Made in Swift.  
 _a mac is a mac, and it needs to stay comfortable._
