@@ -31,7 +31,7 @@ The original free MacOS plugin to play .webm movies in Quicklook Preview.
 >Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
-Works on all macOSX versions and all mac architectures.  
+Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
 
 [Direct download (Universal Binary)
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/march2025/Webm.Quicklook.UniversalBinary.2025March.zip)   
