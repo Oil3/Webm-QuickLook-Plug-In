@@ -57,4 +57,4 @@ Once the app is launched, the WebM Quicklook extension appears in  `Extensions` 
 #### also check out my new [`MKV quicklook extension`](https://github.com/Oil3/Mkv-Quicklook) -just released!
 ##  
 Made in Swift.  
-_a mac is a mac, and it needs to stay comfortable._
+_a mac is a mac and it needs to stay comfortable, but it's still your mac._
