@@ -35,7 +35,7 @@ Instant playback even from network volumes, [Direct download Silicon beta](https
 
 Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
 
-[Direct download (Universal Binary)
+[Direct download (1.5 Universal Binary)
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/1.5univBinary-2.0SiliconBeta/Webm.Quicklook.-.1.5.-.Universal.Binary.zip)   
 
 
