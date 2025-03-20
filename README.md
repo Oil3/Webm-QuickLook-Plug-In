@@ -1,9 +1,9 @@
   <p align="center">
   <img src="https://raw.githubusercontent.com/Oil3/Webm-QuickLook-Plug-In/refs/heads/main/Webm%20Quicklook/Assets.xcassets/AppIcon.appiconset/icin512%203.png" height="128">
-  <h1 align="center">WebM QuickLook Preview extension   </h1>
+  <h1 align="center">WebM Quick Look Preview extension   </h1>
 </p>
 
-The original free MacOS plugin to play .webm movies in Quicklook Preview.
+The original free MacOS plugin to play .webm movies in Quick Look Preview.
 
 
  
