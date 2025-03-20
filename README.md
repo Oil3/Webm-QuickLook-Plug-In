@@ -9,7 +9,6 @@ The original free MacOS plugin to play .webm movies in Quicklook Preview.
  
 
 
-
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
@@ -40,15 +39,15 @@ Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Int
 
 
 ##  
-  
-Notarized and gatekeeper-approved.   
-Light and fast.  
-
-
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
+  
+Notarized and gatekeeper-approved.  
 
-![image](https://github.com/user-attachments/assets/e4b62e9f-196f-4230-8cd3-02d453e05c31)
+##  
+Light and fast.    
+
+[Screen Recording 2025-03-19 at 11.54.34 PM.webm](https://github.com/user-attachments/assets/6a33eb1d-4017-4d25-b64e-25c2e0d37ec7)
 
 
 ## 
