@@ -37,7 +37,10 @@ Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Int
 [Direct download (1.62 Universal Binary)
 ](https://github.com/Oil3/Webm-QuickLook-Plug-In/raw/refs/heads/main/Webm%20Quicklook%201.62%20universal%20binary.zip)   
 
+## Tip
+> `opt + space` quicklooks in full-screen
 
+ 
 ##  
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
