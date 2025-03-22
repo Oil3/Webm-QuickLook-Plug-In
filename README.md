@@ -40,6 +40,11 @@ Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Int
 ## Tip
 > `opt + space` quicklooks in full-screen
 
+## Finder Panel  
+Still unbeknownst why, on some machines, the finder panel refuses not to autoplay:  
+if that is the case, a previous version with a different, simpler logic, prevents correctly this autoplay, at the tradeoff of not autoplaying the preceding video if you go back to it.   
+It does keep the position of the preceding video and you can click once on the video, or click the play button, or right-click 'play' to resume playing.   
+[Direct Download](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.2025Feb.zip) 
  
 ##  
 
