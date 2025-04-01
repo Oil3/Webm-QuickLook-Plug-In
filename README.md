@@ -14,8 +14,8 @@ The original free MacOS plugin to play .webm movies in Quick Look Preview.
      
 **Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/1.62UniversalBinary). 1.62 - properly fixed Finder panel autoplaying. [*](#finder-panel)     
 
-If you need other video/audio formats, **try the beta 2.0** that quicklook-plays virtually _all non-natively-supported formats_ such as .mkv .wmv .flv .webm .rm, ... even .nuv.   
-Instant playback even from network volumes, [Direct download Silicon beta](https://github.com/Oil3/Mkv-Quicklook/releases/download/1.32-MKV-cache-flush/QL-every-other-formats-BETA.zip)  [^1] . WebM experience is still much better on the normal WebM Quicklook 1.6.
+If you need other video/audio formats, **try QLCodec** that quicklook-plays virtually _all non-natively-supported formats_ such as .mkv .wmv .flv .webm .rm, .ivf, .ogg. wna ... even .nuv .   
+Instant playback even from network volumes, [Repository](https://github.com/Oil3/QLCodec).
 
 
 ###
@@ -59,13 +59,11 @@ Light and fast.
 
 
 ## 
-[^1]: The Silicon beta 2.0 uses code from [FFmpeg](http://ffmpeg.org) licensed under [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).   
 
 
 
 
   ## 
-#### also check out my new [`MKV quicklook extension`](https://github.com/Oil3/Mkv-Quicklook) -just released!
 ##  
 Made in Swift.  
 _a mac is a mac and it needs to stay comfortable, but it's still your mac._
