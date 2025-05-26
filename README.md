@@ -62,6 +62,9 @@ Light and fast.
 
 
 ## 
+Parametrized.    
+
+![image](https://github.com/user-attachments/assets/4aa8c0d7-e83e-4ea3-8fe6-9d35be997093)  
 
 
 
