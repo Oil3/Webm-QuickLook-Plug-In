@@ -12,7 +12,7 @@ The original free MacOS plugin to play .webm movies in Quick Look Preview, with 
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/1.62UniversalBinary). 1.62 - properly fixed Finder panel autoplaying. [*](#finder-panel)     
+**New Version Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/WebM-2.0-Scrollwheel-trackpad-UnivBinary-Monterey-to-Sequoia/Webm.Quicklook.v2.May2025.zip). - WebM QuickLook 2.0: parametrized scroll wheel, trackpad gestures.    
 
 If you need other video/audio formats, **try QLCodec** that quicklook-plays virtually _all non-natively-supported formats_ such as .mkv .wmv .flv .webm .rm, .ivf, .ogg. wna ... even .nuv .   
 Instant playback even from network volumes, [Repository](https://github.com/Oil3/QLCodec).
@@ -40,17 +40,20 @@ Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Int
 ## Tip
 > `opt + space` quicklooks in full-screen
 
-## Finder Panel  
-Still unbeknownst why, on some machines, the finder panel refuses not to autoplay:  
-if that is the case, a previous version with a different, simpler logic, prevents correctly this autoplay, at the tradeoff of not autoplaying the preceding video if you go back to it.   
-It does keep the position of the preceding video and you can click once on the video, or click the play button, or right-click 'play' to resume playing.   
-[Direct Download](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/2025/Webm.Quicklook.2025Feb.zip) 
+## Features  
+- [x] detects as it should if the preview is in the Finder panel, the background or in QuickLook,  
+- [x] introduces controls with the trackpad or the scroll wheel,  configurable actions and sensitivity.
+- [x] scale-fits the video when resizing the preview above 100%.  
+- [x] scale-fits the thumbnail in Finder, paused but playable if needed (e.g. gallery  view.).   
+- [x] properly pauses and resumes like a .mov or .mp4,
+- [x] has a new sample video.  
+- [x] has lowered requirements (From macOS 15 Sequoia down to Monterey 12).
  
 ##  
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
   
-Notarized and gatekeeper-approved.  
+Notarized and gatekeeper-approved, Universal Binary for Silicon and Intel architectures, with low osX requirement (Monterey), up to latest Sequoia.  
 
 ##  
 Light and fast.    
