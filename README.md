@@ -33,8 +33,8 @@ The original free MacOS plugin to play .webm movies in Quick Look Preview, with 
 
 Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
 
-[Direct download (2.0 Universal Binary)
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/WebM-2.0-Scrollwheel-trackpad-UnivBinary-Monterey-to-Sequoia/Webm.Quicklook.v2.May2025.zip)     
+[Direct download (2.1 Universal Binary)
+](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webM-jun2025/Webm.Quicklook.v21.June2025.zip)     
 
 ## Tip
 > `opt + space` quicklooks in full-screen
@@ -46,7 +46,8 @@ Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Int
 - [x] scale-fits the thumbnail in Finder, paused but playable if needed (e.g. gallery  view.).   
 - [x] properly pauses and resumes like a .mov or .mp4,
 - [x] has a new sample video.  
-- [x] has lowered requirements (From macOS 15 Sequoia down to Monterey 12).
+- [x] has low requirements (From macOS 15 Sequoia down to Monterey 12).
+- [x] ultra-lightweight, and doesn't run in the background.  
  
 ##  
 
@@ -69,9 +70,8 @@ Parametrized.
 
 
   ## 
-  
-If you need other video/audio formats, **try QLCodec** that quicklook-plays virtually _all non-natively-supported formats_ such as .mkv .wmv .flv .webm .rm, .ivf, .ogg. wna ... even .nuv .   
-Instant playback even from network volumes, [Repository](https://github.com/Oil3/QLCodec).
+
+  Check out _QLCodec_! QuickLook play everything! [Repository](https://github.com/Oil3/QLCodec).
 
 ##  
 Made in Swift.  
