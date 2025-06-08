@@ -12,8 +12,7 @@ The original free MacOS plugin to play .webm movies in Quick Look Preview, with 
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**New Version Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/WebM-2.0-Scrollwheel-trackpad-UnivBinary-Monterey-to-Sequoia). - WebM QuickLook 2.0: parametrized scroll wheel, trackpad gestures.     
-[edit day+1: fixed a bug in settings]
+**New Version 2.1 Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-jun2025). - WebM QuickLook 2.1: auto-unloads.     
 
 
 
