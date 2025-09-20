@@ -3,7 +3,7 @@
   <h1 align="center">WebM Quick Look Preview extension   </h1>
 </p>
 
-The original free MacOS plugin to play .webm movies in Quick Look Preview, with no finder panel or background play inconveniences.  
+The original free macOS plugin to play .webm movies in Quick Look Preview, with no finder panel or background play inconveniences.  
 
 
  
@@ -75,4 +75,6 @@ Parametrized.
 
 ##  
 Made in Swift.  
-_a mac is a mac and it needs to stay comfortable, but it's still your mac._
+_a mac is a mac and it needs to stay comfortable, but it's still your mac._  
+
+ <h8>Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.</h8> 
