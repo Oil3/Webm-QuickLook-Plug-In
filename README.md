@@ -9,7 +9,6 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 ### Updated to version 2.5 - November 12th 2025  
 ## 
 
- 
 
 ![image](https://github.com/user-attachments/assets/55d5e98c-a618-47ff-84b4-e5f01498238c)
 
@@ -34,7 +33,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 >Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
-Works on all macOSX versions (Big Surttt t t to latest Sequoia) and all Silicon or Intel mac architectures.  
+Works on all macOSX versions (Big Sur to latest Sequoia) and all Silicon or Intel mac architectures.  
 
 [Direct download (2.5 Universal Binary)
      ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webm-nov2025/Webm.Quicklook.2.5.2025November.zip)
@@ -58,10 +57,7 @@ Once the app is launched, the WebM Quicklook extension appears in  `Extensions` 
   
 Notarized and gatekeeper-approved, Universal Binary for Silicon and Intel architectures, with low osX requirement (Monterey), up to latest Sequoia.  
 
-##  
-Light and fast.    
 
-[Screen Recording 2025-03-19 at 11.54.34 PM.webm](https://github.com/user-attachments/assets/6a33eb1d-4017-4d25-b64e-25c2e0d37ec7)
 
 
 ## 
@@ -75,9 +71,23 @@ Parametrized.
   ## 
 
   Check out _QLCodec_! QuickLook play everything! [Repository](https://github.com/Oil3/QLCodec).
+<br>
+## Acknowledgment
+<p align="justify">
 
-##  
-Made in Swift.  
-_a mac is a mac and it needs to stay comfortable, but it's still your mac._  
+[FFmpeg](http://ffmpeg.org) for their libraries licenced in [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html). We use, or have used, code from FFmpeg in ths project, a project which wouldn't have been possible without them. QLCodec is forever grateful for FFmpeg's selfless commitment of sharing knowledge with everyone.   
 
- <h8>Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.</h8> 
+</p>
+
+<p align="justify">
+  
+[VideoLan](https://www.videolan.org/) for their libraries licenced in  [LGPLv2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html).  We use, or have used, code from Videolan's VLCKit in ths project, a project which wouldn't have been possible without them. QLCodec is forever grateful for Videolan's selfless commitment of sharing knowledge with everyone.   
+</p>
+<p align="justify">
+  
+[Perian](https://perian.org/) for their Quicktime plug-in back-in-the-days.  Perian was an open-source QuickTime component that enabled Apple Inc.'s QuickTime to play several popular video formats not supported natively by QuickTime (quote from Wikipedia). 
+</p>
+Mac and macOS are trademarks of [Apple Inc.](http://www.apple.com/), registered in the U.S. and other countries and regions.  
+
+  ##  
+_A mac is a mac and it needs to stay comfortable, but it's still your mac._  
