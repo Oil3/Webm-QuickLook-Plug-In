@@ -41,13 +41,13 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 > `opt + space` quicklooks in full-screen
 
 ## Features  
-- [x] Behave as it should qhen the preview is in the Finder panel/Gallery, the background, or in Quick Look.  
+- [x] Behave as it should when the preview is in the Finder panel/Gallery, the background, or in Quick Look.  
 - [x] Optional thumbnails/icons.    
 - [x] Fine-tunable controls and gestures/scrolling.  
 - [x] Picture-in-Picture that floats above Spotlight/Dock/Menu-bar.  
 - [x] A-B looping and custom bookmarks.   
 - [x] Properly pauses and resumes like native formats. 
-- [x] Spports every .webm including AV1.  
+- [x] Supports every .webm including AV1.  
 - [x] Has low requirements (From macOS 26 Tahoe down to Big Sur 11), Intel and M-series.
 - [x] Ultra-lightweight, and doesn't run in the background.  
  
@@ -55,7 +55,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 
 Once the app is launched, the WebM Quicklook extension appears in  `Extensions` from `General` in macOS' `System Settings`, and disapears if app is deleted.  
   
-Notarized and gatekeeper-approved, Universal Binary for Silicon and Intel architectures, with low osX requirement (Monterey), up to latest Sequoia.  
+Notarized and gatekeeper-approved, Universal Binary for Silicon and Intel architectures, with low osX requirement (Big Sur), up to latest Tahoe.  
 
 
 
