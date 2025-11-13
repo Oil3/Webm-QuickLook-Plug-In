@@ -1,5 +1,5 @@
   <p align="center">
-  <img src="https://raw.githubusercontent.com/Oil3/Webm-QuickLook-Plug-In/refs/heads/main/Webm%20Quicklook/Assets.xcassets/AppIcon.appiconset/icin512%203.png" height="128">
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/5aa9f38d-af2c-4a6e-aee8-3fba7223b3b3" />
   <h1 align="center">WebM Quick Look Preview extension   </h1>
 </p>
 
