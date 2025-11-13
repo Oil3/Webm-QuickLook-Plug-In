@@ -5,6 +5,9 @@
 
 The original free macOS plugin to play .webm movies in Quick Look Preview, with no finder panel or background play inconveniences.  
 
+## 
+### Updated 2.5 -November 12th 2025  
+## 
 
  
 
@@ -12,7 +15,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 ![image](https://github.com/user-attachments/assets/dbd3da6f-4ffb-4bf0-9354-8225c667fa34)
 
      
-**New Version 2.1 Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/tag/webM-jun2025). - WebM QuickLook 2.1: auto-unloads.     
+**New Version 2.5 Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/latest). - WebM QuickLook 2.5: AV1, Big Sur, PiP.     
 
 
 
@@ -31,10 +34,10 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 >Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
 
 
-Works on all macOSX versions (Monterey to latest Sequoia) and all Silicon or Intel mac architectures.  
+Works on all macOSX versions (Big Surttt t t to latest Sequoia) and all Silicon or Intel mac architectures.  
 
-[Direct download (2.1 Universal Binary)
-](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webM-jun2025/Webm.Quicklook.v21.June2025.zip)     
+[Direct download (2.5 Universal Binary)
+     ](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/download/webm-nov2025/Webm.Quicklook.2.5.2025November.zip)
 
 ## Tip
 > `opt + space` quicklooks in full-screen
