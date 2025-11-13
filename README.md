@@ -6,7 +6,7 @@
 The original free macOS plugin to play .webm movies in Quick Look Preview, with no finder panel or background play inconveniences.  
 
 ## 
-### Updated 2.5 -November 12th 2025  
+### Updated to version 2.5 - November 12th 2025  
 ## 
 
  
