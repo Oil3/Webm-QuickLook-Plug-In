@@ -11,8 +11,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 
 
 ![image](https://github.com/user-attachments/assets/55d5e98c-a618-47ff-84b4-e5f01498238c)
- Revise README for version 2.5 release
-
+  
 
      
 **New Version 2.5 Download** from [Releases](https://github.com/Oil3/Webm-QuickLook-Plug-In/releases/latest). - WebM QuickLook 2.5: AV1, Big Sur, PiP.     
