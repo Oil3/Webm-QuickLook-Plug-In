@@ -11,6 +11,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 
 
 ![image](https://github.com/user-attachments/assets/55d5e98c-a618-47ff-84b4-e5f01498238c)
+ Revise README for version 2.5 release
 
 
      
@@ -30,7 +31,7 @@ The original free macOS plugin to play .webm movies in Quick Look Preview, with 
 >Delete the app.  
 
 ## Update  
->Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed. 
+>Replace the older app with the newer app.  MacOS looks for the extension in the app: if app is moved, a relaunch might be needed.  Best to keep in `Macintosh HD/Applications`.    
 
 
 Works on all macOSX versions (Big Sur to latest Sequoia) and all Silicon or Intel mac architectures.  
@@ -42,14 +43,15 @@ Works on all macOSX versions (Big Sur to latest Sequoia) and all Silicon or Inte
 > `opt + space` quicklooks in full-screen
 
 ## Features  
-- [x] detects as it should if the preview is in the Finder panel, the background or in QuickLook,  
-- [x] introduces controls with the trackpad or the scroll wheel,  configurable actions and sensitivity.
-- [x] scale-fits the video when resizing the preview above 100%.  
-- [x] scale-fits the thumbnail in Finder, paused but playable if needed (e.g. gallery  view.).   
-- [x] properly pauses and resumes like a .mov or .mp4,
-- [x] has a new sample video.  
-- [x] has low requirements (From macOS 15 Sequoia down to Monterey 12).
-- [x] ultra-lightweight, and doesn't run in the background.  
+- [x] Behave as it should qhen the preview is in the Finder panel/Gallery, the background, or in Quick Look.  
+- [x] Optional thumbnails/icons.    
+- [x] Fine-tunable controls and gestures/scrolling.  
+- [x] Picture-in-Picture that floats above Spotlight/Dock/Menu-bar.  
+- [x] A-B looping and custom bookmarks.   
+- [x] Properly pauses and resumes like native formats. 
+- [x] Spports every .webm including AV1.  
+- [x] Has low requirements (From macOS 26 Tahoe down to Big Sur 11).
+- [x] Ultra-lightweight, and doesn't run in the background.  
  
 ##  
 
